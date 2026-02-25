@@ -1,4 +1,6 @@
 {
+  // NOTE: If you see a "Cannot find type definition" error here, it is normal.
+  // It will disappear immediately after running 'bun install'.
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
@@ -7,7 +9,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "types": [
-      "bun-types" 
+      "bun"
     ]
   }
 }

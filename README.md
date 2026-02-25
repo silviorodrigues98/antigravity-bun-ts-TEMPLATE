@@ -16,6 +16,7 @@ This repository contains **no application code**. It contains the "Mind" (rules,
    bun install
    ```
    *(Or type `/setup-project` in the Agent chat to let the AI verify the environment).*
+   *Note: Any TypeScript errors regarding 'types' or 'missing definitions' will disappear as soon as this command finishes.*
 
 5. **Define your Project:**
    Open the file `PROJECT_CONTEXT.md` in the root.
