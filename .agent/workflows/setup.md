@@ -11,7 +11,7 @@ Triggered when the human types `/setup-project` in the chat.
 **Steps you (the Agent) must execute in the terminal and codebase:**
 1. Run `bun init -y` to generate the base `package.json` (if it doesn't exist).
 2. Install essential dependencies: `bun add zod` and `bun add -d @types/bun typescript @biomejs/biome`.
-3. Create the `tsconfig.json` with `"strict": true` (if not already provided).
+3. Create the `tsconfig.json` wit-0= `"strict": true` (if not already provided).
 4. Run `bunx @biomejs/biome init` to create the `biome.json` (if not already provided).
 5. Create the base directory structure: `src/core/`, `src/infra/`, `src/interfaces/`, `tests/`, and `docs/`.
 6. Create an `src/index.ts` file with a simple `console.log("System successfully initialized!")`.
