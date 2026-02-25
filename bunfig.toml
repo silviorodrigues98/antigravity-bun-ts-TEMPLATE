@@ -1,0 +1,29 @@
+# ⚡️ Bun Configuration
+# https://bun.sh/docs/runtime/bunfig
+
+[install]
+# Ensure reproducible builds with the binary lockfile
+lockfile = { save = true, print = "yarn" }
+
+# Clean install output (helps AI parse logs)
+loglevel = "warn"
+
+# Cache dependencies globally to save disk space/time
+# But keep node_modules local for IDE/AI compatibility
+global = false
+
+[test]
+# Define the test runner behavior
+# Matches the "tests/" folder structure in our architecture
+root = "."
+
+# Timeout for tests (prevent AI infinite loops)
+timeout = 5000 
+
+[run]
+# Use Bun's cross-platform shell
+shell = "bun"
+
+[debug]
+# If the runtime crashes, print the stack trace
+verbose = true

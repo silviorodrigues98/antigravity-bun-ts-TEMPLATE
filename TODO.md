@@ -1,16 +1,10 @@
 # Project Backlog
 
-Add the features, fixes, and improvements you want to implement here.
-Use the `/todo` or `/next` command in the agent chat so it can start development interactively.
+Use `/kickoff` to populate this list based on `PROJECT_CONTEXT.md`, or `/next` to start working.
 
 ## Pending
-- [ ] Example 1
-- [ ] Example 2
-- [ ] Example 3
-- [ ] Example 4
+- [ ] Fill out `PROJECT_CONTEXT.md` with project details.
+- [ ] Run `bun install`.
 
 ## Completed
-- [x] Example 5
-- [x] Example 6
-- [x] Example 7
-- [x] Example 8
+- [x] Scaffolding created.
