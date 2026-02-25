@@ -28,3 +28,14 @@ Thanks to the `.agent/` folder, the Antigravity agent is already trained on this
 - **Language:** TypeScript (`strict: true`)
 - **Validation:** Zod (Zero use of `any`)
 - **Linter & Formatter:** Biome (Rust-based, ultra-fast)
+
+## 📋 Prerequisites for Human Developers
+
+To ensure maximum performance and compatibility with this boilerplate, make sure you have:
+
+1. **[Bun](https://bun.sh/) installed:** (Version 1.0 or higher).
+   - Install (Mac/Linux): `curl -fsSL https://bun.sh/install | bash`
+   - Install (Windows): `powershell -c "irm bun.sh/install.ps1 | iex"`
+2. **Biome Extension:** Install the **Biome** extension in your editor (VS Code, Cursor, Windsurf, or Antigravity). This replaces Prettier and ESLint.
+   - *Note:* Make sure to disable Prettier/ESLint for this workspace to avoid formatting conflicts.
+3. **Google Antigravity IDE** (or your preferred Agent-First IDE) to fully utilize the automated workflows in the `.agent/` folder.

@@ -1,5 +1,5 @@
 ---
-description: Initialize the codebase from the empty template
+description: Initialize the codebase from this empty template.
 ---
 
 # Workflow: /setup-project
